@@ -69,7 +69,7 @@ Once you have it installed, you have to configure your terminal applications to 
 You can use the [convenience script](./clone_and_install.sh) to install the dotfiles pretty quickly, and it will install Git in case you don't have it already:
 
 ```bash
-sh -c "$(wget -qO- https://git.io/felipecrs-dotfiles)"
+sh -c "$(wget -qO- https://raw.githubusercontent.com/lnicoleti/dotfiles/master/scripts/install_dotfiles.sh)"
 ```
 
 > 💡 We use `wget` here because it comes preinstalled with most of the Ubuntu versions. But you can also use `curl`:
