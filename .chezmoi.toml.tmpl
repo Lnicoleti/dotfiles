@@ -3,8 +3,8 @@
 {{ $personalName := "Felipe Santos" -}}
 {{- $personalEmail := "felipecassiors@gmail.com" -}}
 
-{{- $workName := "Felipe de Cássio Rocha Santos" -}}
-{{- $workEmail := "felipesantos@inatel.br" -}}
+{{- $workName := "Lucas da Silva Nicoleti" -}}
+{{- $workEmail := "lucas@ecomilhas.me" -}}
 
 {{- $isWork := or (contains "work" (lower .chezmoi.hostname)) (contains "inatel" (lower .chezmoi.hostname)) (contains "iccso" (lower .chezmoi.hostname)) (contains "seli" (lower .chezmoi.hostname)) (contains "vmx" (lower .chezmoi.hostname)) -}}
 {{- $isPersonal := not $isWork -}}
